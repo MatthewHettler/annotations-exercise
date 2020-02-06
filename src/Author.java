@@ -27,7 +27,7 @@ public class Author extends Person {
     }
 
     public void addBook(String book) {
-        boolean add = books.add(book);
+        books.add(book);
     }
 
     @Override
